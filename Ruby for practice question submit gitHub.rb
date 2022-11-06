@@ -18,3 +18,14 @@ end
 #——————————
 
 [Ruby lesson 6]
+
+
+#----------------
+[Ruby lesson 9]
+class Car
+  def self.turn(direction)
+    puts "#{direction}に曲がります。"
+  end
+end
+
+Car.turn("右")
