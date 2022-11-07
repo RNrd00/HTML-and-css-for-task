@@ -29,3 +29,36 @@ class Car
 end
 
 Car.turn("右")
+
+#-------------------
+[lesson 10]
+class Car
+  def run(distance)
+    puts "車は#{distance}キロ走ります。"
+  end
+end
+
+class Bus < Car
+end
+
+bus = Bus.new
+bus.run(5)
+
+#------------------
+[lesson 11]
+
+class Car
+  def run(distance)
+    puts "車で#{distance}キロ走ります。"
+  end
+end
+
+class Truck < Car
+  def run(distance)
+    super
+    puts "大きな荷物を乗せて走ります"
+  end
+end
+
+bus = Truck.new
+bus.run(5)
