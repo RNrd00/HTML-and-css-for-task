@@ -67,33 +67,44 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
+  .step-box{
+    width:100%;
+    margin-bottom: 20px
+    
+  }
+  
   header {
     width: 100%;
     margin: 0;
     }    
 
   main {
-    width: 100%;
+    width: 90%;
     display: block;
-   
+     flex-direction:column;
+     
+    
     }
     
-    .step-box{
-        width: 100%;
-        margin: 0;
+    .step-img1{
+      background-position: center;
+      display: block;
+    }
+    
+     .step-img2{
+       background-position: center;
+      display: block;
+    }
+    
+     .step-img3{
+       background-position: center;
+      display: block;
     }
     
     footer {
     width: 100%;
     margin: 0 ;
-}
-
-.text1{
-    margin-bottom: 20px
-}
-
-.text2{
-    margin-bottom: 20px
 }
 
 }
